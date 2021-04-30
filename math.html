@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>乱数発生の練習</title>
+</head>
+
+<body>
+  <h1>乱数発生の練習</h1>
+
+
+
+  <script>
+
+    // 0から9までの乱数を発生
+    const randomNumber1 = Math.floor(Math.random() * 10);
+    console.log(randomNumber1);
+
+    // 1から9までのどれか
+    const randomNumber2 = Math.floor(Math.random() * 9) + 1;
+    console.log(randomNumber2);
+
+    // 5から10までのどれか
+    // 
+    const randomNumber3 = Math.floor(Math.random() * 6) + 5;
+    console.log(randomNumber3);
+
+    // 50から99
+    // 99 - 50 + 1
+    // 50(min) 99(max)
+    const randomNumber4 = Math.floor(Math.random() * 50) + 50;
+    console.log(randomNumber4);
+
+    // minからmax
+    const min = 5;
+    const max = 10;
+    const randomNumber5 = Math.floor(Math.random() * (max - min + 1)) + min;
+    console.log(randomNumber5);
+
+    if(randomNumber5 == 0){
+      
+    }
+
+  </script>
+</body>
+
+</html>
